@@ -1,4 +1,4 @@
-import React,{ useState, useEffect} from 'react';
+import React,{ useState, useEffect, Component} from 'react';
 import Header from './components/Header';
 import Figure from './components/Figure';
 import WrongLetters from './components/Wrongletters';
@@ -6,6 +6,7 @@ import Word from './components/Word';
 import Notification from './components/Notification';
 import Popup from './components/Popup';
 import {showNotification as show} from './helpers/helpers';
+
 
 import './App.css';
 
@@ -32,7 +33,8 @@ function App() {
   const [correctLetters, setcorrectLetters] = useState([]);
   const [wrongLetters, setwrongLetters] = useState([]);
   const [showNotification, setShowNotification] = useState(false);
-  const [highscore, sethighscore] = useState(0)
+  const letters = /^[a-z0-9]+$/i;
+  const digits = document.getElementsByClassName('digit');
 
 
   useEffect(()=>{
