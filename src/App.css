@@ -157,8 +157,10 @@ h1 {
   background-color: #fff;
   color: #2980b9;
   margin-top: 0.1rem;
-  border-radius: 5rem 5rem ;
+  border-radius: 0.7rem 0.7rem ;
   font-size: 1.5rem;
+  max-block-size: 2rem;
+  block-size: auto;
   text-align: center;
 }
 
