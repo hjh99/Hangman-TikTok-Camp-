@@ -25,7 +25,7 @@ h1 {
   position: relative;
   margin: auto;
   aspect-ratio: "30%";
-  width: "100%";
+  width: "90%";
 }
 
 .figure-container {
@@ -59,10 +59,11 @@ h1 {
 
 .word {
   display: flex;
-  position: absolute;
+  position: static;
+  align-items: center;
+  justify-content: center;
   bottom: 10px;
   left: 50%;
-  transform: translateX(-50%);
 }
 
 .letter {
@@ -123,24 +124,27 @@ h1 {
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 10px 10px 0 0;
   padding: 15px 20px;
+  position: absolute;
   bottom: -50px;
   display: none;
   text-align: center;
   transition: transform 0.3s ease-in-out;
 }
 
-.notification-container.show {
-  display: none;
+.notification-container h2 {
   text-align: center;
-  transform: translateY(-50px);
+}
+
+.notification-container.show {
+  transform: translateY(-10rem);
 }
 
 
 .button-container {
   position: static;
   border-radius: 10px 10px 0 0;
-  padding: 120px 30px;
-  top: 40px;
+  padding: 1rem 1rem;
+  top: 1rem;
   right: 10px;
   display: flow-root;
   flex-direction: row;
@@ -151,7 +155,7 @@ h1 {
   cursor: pointer;
   background-color: #fff;
   color: #2980b9;
-  margin-top: px;
+  margin-top: 0.2rem;
   border-radius: 10px 10px;
   font-size: 28px;
   text-align: center;
