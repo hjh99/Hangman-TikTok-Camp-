@@ -4,32 +4,32 @@ const Button = ({a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z}) => {
   return (
 
     <div className="button-container">
-    <button onClick={a}>a</button>
-    <button onClick={b}>b</button>
-    <button onClick={c}>c</button>
-    <button onClick={d}>d</button>
-    <button onClick={e}>e</button>
-    <button onClick={f}>f</button>
-    <button onClick={g}>g</button>
-    <button onClick={h}>h</button>
-    <button onClick={i}>i</button>
-    <button onClick={j}>j</button>
-    <button onClick={k}>k</button>
-    <button onClick={l}>l</button>
-    <button onClick={m}>m</button>
-    <button onClick={n}>n</button>
-    <button onClick={o}>o</button>
-    <button onClick={p}>p</button>
-    <button onClick={q}>q</button>
-    <button onClick={r}>r</button>
-    <button onClick={s}>s</button>
-    <button onClick={t}>t</button>
-    <button onClick={u}>u</button>
-    <button onClick={v}>v</button>
-    <button onClick={w}>w</button>
-    <button onClick={x}>x</button>
-    <button onClick={y}>y</button>
-    <button onClick={z}>z</button>
+    <button onClick={a}>A</button>
+    <button onClick={b}>B</button>
+    <button onClick={c}>C</button>
+    <button onClick={d}>D</button>
+    <button onClick={e}>E</button>
+    <button onClick={f}>F</button>
+    <button onClick={g}>G</button>
+    <button onClick={h}>H</button>
+    <button onClick={i}>I</button>
+    <button onClick={j}>J</button>
+    <button onClick={k}>K</button>
+    <button onClick={l}>L</button>
+    <button onClick={m}>M</button>
+    <button onClick={n}>N</button>
+    <button onClick={o}>O</button>
+    <button onClick={p}>P</button>
+    <button onClick={q}>Q</button>
+    <button onClick={r}>R</button>
+    <button onClick={s}>S</button>
+    <button onClick={t}>T</button>
+    <button onClick={u}>U</button>
+    <button onClick={v}>V</button>
+    <button onClick={w}>W</button>
+    <button onClick={x}>X</button>
+    <button onClick={y}>Y</button>
+    <button onClick={z}>Z</button>
 
   </div>
   )
