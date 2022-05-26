@@ -68,7 +68,7 @@ h1 {
 }
 
 .letter {
-  border-bottom: 3px solid #97A97C;
+  border-bottom: 3px solid #fff;
   display: inline-flex;
   font-size: 30px;
   align-items: center;
@@ -155,7 +155,7 @@ h1 {
 .button-container button {
   cursor: pointer;
   background-color: #fff;
-  color: #2980b9;
+  color: #97A97C;
   margin-top: 0.1rem;
   border-radius: 0.7rem 0.7rem ;
   font-size: 1.5rem;
@@ -171,5 +171,5 @@ h1 {
 .button-container button:hover {
   background-color: #fff;
   color: #000;
-  box-shadow: 5px 10px #888;
+  box-shadow: 5px 10px #E9F5DB;
 }
