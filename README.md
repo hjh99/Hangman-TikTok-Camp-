@@ -7,6 +7,10 @@ Lee Shu Min, Kimberly
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs the required files before running the files on a local repository
+
 ### `npm start`
 
 Runs the app in the development mode.\
