@@ -1,8 +1,9 @@
 This is our submission for TikTok Camp 2022 comprising of:
-    Amrita Shah
-    Ho Jun Hui Nicholas
-    Fung Jing Wen Elisabeth
-    Lee Shu Min, Kimberly
+    
+Amrita Shah  
+Ho Jun Hui Nicholas
+Fung Jing Wen Elisabeth
+Lee Shu Min, Kimberly
 
 In the project directory, you can run:
 
